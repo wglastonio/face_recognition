@@ -1,0 +1,6 @@
+How to Set Up a Raspberry Pi for the First Time
+https://www.tomshardware.com/how-to/set-up-raspberry-pi
+
+
+How to Set Up a Headless Raspberry Pi, Without Ever Attaching a Monitor
+https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html

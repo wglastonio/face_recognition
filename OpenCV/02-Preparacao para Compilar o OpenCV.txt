@@ -1,0 +1,21 @@
+1) Aumentar o espaço de swap:
+sudo nano /etc/dphys-swapfile
+	> Procurar: CONF_SWAPSIZE=100
+	> Substituir por: CONF_SWAPSIZE=2048
+
+	> Salvar e sair
+
+
+2) Reiniciar o serviço:
+sudo systemctl restart dphys-swapfile
+
+
+3) Clonar os repositórios do OpenCV:
+git clone https://github.com/opencv/opencv.git
+git clone https://github.com/opencv/opencv_contrib.git
+
+
+
+
+
+

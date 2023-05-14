@@ -1,0 +1,3 @@
+# face_recognition
+Face Recognition
+Este artigo apresenta um trabalho prático desenvolvido para a disciplina Objetos Inteligentes Conectados baseado no módulo Raspberry Pi 3. Trata-se de sistema de reconhecimento facial baseado no Raspberry Pi 3, utilizando basicamente a biblioteca OpenCV responsável pelo processamento de imagem em tempo real através de algoritmos de “machine learning”. É importante deixar registrado que esse projeto foi construído apenas para fins de aprendizado.

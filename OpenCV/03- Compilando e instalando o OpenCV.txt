@@ -1,0 +1,33 @@
+1) Criar uma build a partir do projeto clonado:
+mkdir ~/opencv/build
+cd ~/opencv/build
+
+
+2) Preparar o OpenCV para compilação:
+cmake -D CMAKE_BUILD_TYPE=RELEASE \
+    -D CMAKE_INSTALL_PREFIX=/usr/local \
+    -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \
+    -D ENABLE_NEON=ON \
+    -D ENABLE_VFPV3=ON \
+    -D BUILD_TESTS=OFF \
+    -D INSTALL_PYTHON_EXAMPLES=OFF \
+    -D OPENCV_ENABLE_NONFREE=ON \
+    -D CMAKE_SHARED_LINKER_FLAGS=-latomic \
+    -D OPENCV_PYTHON_INSTALL_PATH=lib/python3.9/dist-packages \
+    -D BUILD_EXAMPLES=OFF ..
+
+
+3) Compilar o OpenCV:
+make -j$(nproc)
+
+
+4) Instalar o Opencv:
+sudo make install
+
+
+5) Atualizar as bibliotecas no sistema operacional
+sudo ldconfig
+
+
+
+
